@@ -1,0 +1,21 @@
+body{
+    font-size: 62.5%;
+    
+    width: auto;
+    margin: auto;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid brown 4px;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin: 1rem;
+}
+li{
+    list-style-type:disc;
+    font-size: 1rem;
+}
