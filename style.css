@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column ;
     border: solid brown 4px;
     border-radius: 0.5rem;
     padding: 2rem;
