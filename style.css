@@ -4,7 +4,15 @@ body{
     width: auto;
     margin: auto;
 }
-
+.head{
+    background-color: antiquewhite;
+    color: brown;
+    width: auto;
+    height: 10vh;
+    padding: 1rem;
+    border-bottom:solid  coral 3px;
+    text-align: center;
+}
 .body{
     display: flex;
     justify-content: center;
@@ -18,4 +26,17 @@ body{
 li{
     list-style-type:disc;
     font-size: 1rem;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    width: auto;
+    height: 5vh;
+    background-color: coral;
+    padding: auto;
+    text-align: center;
 }
