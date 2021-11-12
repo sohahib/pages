@@ -9,7 +9,7 @@ body{
     color: brown;
     width: auto;
     height: 10vh;
-    padding: 1rem;
+    padding: 1rem; 
     border-bottom:solid  coral 3px;
     text-align: center;
 }
