@@ -47,7 +47,7 @@ section{
     border-radius: 0.3rem;
     border-top-left-radius: 0.8rem;
     color: black;
-    font-weight: bolder;
+    font-weight: bolder; 
     cursor: pointer;
 }
 .btn:hover{
