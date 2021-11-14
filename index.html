@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cleaner Control Tour</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="head">
@@ -26,10 +27,34 @@
         <h3>SOHAHIB</h3>
     </div>
     <section> 
-        <button> SEE MORE</button>
+        <button onclick="moreOption()"> SEE MORE</button><br>
+        <div id="rules">
+            <h3> SOME SIMPLE RULES</h3>
+            <img id="im1" src=""/>
+            <img id="im1" src=""/>
+            <img id="im1" src=""/>
+            <img id="im1" src=""/>
+            <img id="im1" src=""/>
+            <img id="im1" src=""/>
+            <p>some text</p>
+            <br>
+            <p>some other text</p>
+
+        </div>
     </section>
-    <footer class="foot">
-        <h4>@2021 Appart Regulation</h4>
-    </footer>
+    
 </body>
+<footer class="foot">
+    <h4>@2021 Appart Regulation</h4>
+</footer>
+<script>
+    function moreOption(){
+  var x = document.getElementById("rules");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </html>
