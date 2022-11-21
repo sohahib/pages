@@ -13,7 +13,7 @@ body{
     border-bottom:solid  coral 3px;
     text-align: center;
 }
-.body{
+.container , .livingRoom{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +39,7 @@ section{
     background-color: coral;
     padding: auto;
     text-align: center;
+    position: relative;
 }
 .btn{
     background-color:burlywood;
