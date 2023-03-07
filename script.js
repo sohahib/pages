@@ -10,7 +10,7 @@ function moreOption(){
       
 
 function toiletCleaningList(){
-    let names = ['Sohahib', 'Nassir', 'Faysal', 'Ousmane', 'Ibrahim', 'Tidiane']
+    let names = ['Sohahib', 'Nassir', 'Faysal', 'Ousmane', 'Tidiane']
     let listTag = document.querySelector('ol');
     let list = ``
     names.forEach(name => {
