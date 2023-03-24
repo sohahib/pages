@@ -3,6 +3,7 @@ body{
     
     width: auto;
     margin: auto;
+    display: block;
 }
 .head{
     background-color: antiquewhite;
@@ -13,7 +14,7 @@ body{
     border-bottom:solid  coral 3px;
     text-align: center;
 }
-.container , .livingRoom{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,12 +28,7 @@ li{
     list-style-type:disc;
     font-size: 1rem;
 }
-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 .foot{
     width: auto;
     height: 5vh;
@@ -41,7 +37,8 @@ section{
     text-align: center;
     position: relative;
 }
-.btn{
+
+.riceBtn{
     background-color:burlywood;
     padding: 0.3rem 1rem;
     border: coral solid 2px;
@@ -50,7 +47,11 @@ section{
     color: black;
     font-weight: bolder; 
     cursor: pointer;
+    transition: all 0,5s;
 }
-.btn:hover{
+.riceBtn:hover{
     background-color: coral;
+}
+.riceList{
+    display:none;
 }
