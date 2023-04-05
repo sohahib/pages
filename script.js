@@ -6,7 +6,7 @@ function passwordCheck(){
 }
 window.onload=passwordCheck;
 function toiletCleaningList(){
-    let names = ['Sohahib', 'Nassir', 'Faysal', 'Ousmane', 'Tidiane']
+    let names = ['Sohahib', 'Nassir', 'Faysal', 'Tidiane']
     let listTag = document.querySelector('ol');
     let list = ``
     names.forEach(name => {
